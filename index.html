@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Chatbot Challenge</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="text-center mb-4">
+      <h1 class="display-4">Chatbot Challenge</h1>
+    </div>
+
+    <div id="chat-container">
+      <div id="chat-display" class="chat-display"></div>
+    </div>
+
+    <div class="fixed-bottom mb-3">
+      <div class="input-group">
+        <input type="text" id="user-input" class="form-control" placeholder="Type your message...">
+        <button id="speech-to-text-btn" class="btn btn-outline-secondary" type="button">Speech to Text</button>
+        <button id="send-btn" class="btn btn-primary" type="button">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
