@@ -1,4 +1,3 @@
-// scripts.js
 document.getElementById('send-btn').addEventListener('click', sendMessage);
 
 async function sendMessage() {
